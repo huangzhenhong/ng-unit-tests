@@ -1,0 +1,13 @@
+<p>
+  <a class='sync'>
+    <span *ngIf="needsLogin()">Login</span>
+    <span *ngIf="!needsLogin()">Logout</span>
+  </a>
+</p>
+<p>
+    <a class='async'>
+      <span *ngIf="login">Login</span>
+      <span *ngIf="!login">Logout</span>
+    </a>
+  </p>
+  
